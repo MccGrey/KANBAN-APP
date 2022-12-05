@@ -1,13 +1,88 @@
+@font-face {
+  font-family: "PlusJakartaSansRegular";
+  src: url("/src/assets/fonts/PlusJakartaSansRegular.eot");
+  src: url("/src/assets/fonts/PlusJakartaSansRegular.eot")
+      format("embedded-opentype"),
+    url("/src/assets/fonts/PlusJakartaSansRegular.woff2") format("woff2"),
+    url("/src/assets/fonts/PlusJakartaSansRegular.woff") format("woff"),
+    url("/src/assets/fonts/PlusJakartaSansRegular.ttf") format("truetype"),
+    url("/src/assets/fonts/PlusJakartaSansRegular.svg#PlusJakartaSansRegular")
+      format("svg");
+}
+
+:root {
+  --white: rgb(255, 255, 255);
+  --white-hover: rgba(255, 255, 255, 0.726);
+  --main-purple: rgb(99, 95, 199);
+  --main-50purple: rgba(99, 95, 199, 0.5);
+  --light-purple: rgba(99, 95, 199, 0.1);
+  --bg-grey: rgb(244, 247, 253);
+  --medium-grey: rgb(130, 143, 163);
+  --light-grey: rgba(130, 143, 163, 0.1);
+  --dim: rgba(0, 0, 0, 0.5);
+  --red: rgb(234, 85, 85);
+  --red-hover: rgba(234, 85, 85, 0.728);
+  --bg-dark: rgb(32, 33, 44);
+  --bg-50dark: rgb(43, 44, 55);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "PlusJakartaSansRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.board,
+.mainBoard,
+body,
+main {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.board::-webkit-scrollbar,
+.mainBoard::-webkit-scrollbar,
+body::-webkit-scrollbar,
+main::-webkit-scrollbar {
+  display: none;
+}
+
+.edit::-webkit-scrollbar,
+.addTask::-webkit-scrollbar,
+.brdNames::-webkit-scrollbar {
+  width: 15px;
+}
+
+.addTask::-webkit-scrollbar-track,
+.edit::-webkit-scrollbar-track,
+.brdNames::-webkit-scrollbar-track {
+  border-radius: 7.5px;
+}
+
+.addTask::-webkit-scrollbar-thumb,
+.edit::-webkit-scrollbar-thumb,
+.brdNames::-webkit-scrollbar-thumb {
+  border-radius: 7.5px;
+  background-color: var(--light-purple);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "PlusJakartaSansRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+input,
+textarea,
+select,
+option {
+  font-family: "PlusJakartaSansRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 }
