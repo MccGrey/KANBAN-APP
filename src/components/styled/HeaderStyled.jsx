@@ -7,6 +7,7 @@ export const HeaderStyle = styled.header`
   left: 0;
   width: 100vw;
   z-index: 10;
+  transition: all 400ms ease;
 
   .add button:disabled {
     opacity: 0.5;
@@ -26,20 +27,23 @@ export const HeaderStyle = styled.header`
     .switch,
     .addTask {
       background-color: var(--bg-dark);
-
+      transition: all 400ms ease;
       h2,
       button,
       select,
       input,
       textarea {
         color: var(--white);
+        transition: all 400ms ease;
       }
 
       span {
         color: var(--medium-grey);
+        transition: all 400ms ease;
       }
       button.active span {
         color: var(--white);
+        transition: all 400ms ease;
       }
 
       ::placeholder {
@@ -67,6 +71,7 @@ export const HeaderStyle = styled.header`
       .add {
         background-color: var(--white);
         color: var(--main-purple);
+        transition: all 400ms ease;
 
         &:hover {
           background-color: var(--white-hover);
@@ -96,6 +101,7 @@ export const HeaderStyle = styled.header`
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    transition: all 400ms ease;
 
     @media screen and (min-width: 641px) {
       max-width: 100%;
@@ -269,7 +275,7 @@ export const HeaderStyle = styled.header`
       border-bottom-right-radius: 50%;
       z-index: -1;
       opacity: 0;
-      transition: all 500ms;
+      transition: all 500ms ease;
 
       &:hover {
         background-color: var(--main-50purple);
@@ -320,6 +326,7 @@ export const Button = styled.button`
   background-color: var(--main-purple);
   border-radius: 1.5rem;
   padding: 0.5rem 1.125rem;
+  transition: all 400ms ease;
 
   &:hover {
     background-color: var(--main-50purple);

@@ -10,6 +10,7 @@ export const MainStyle = styled.main`
   position: relative;
   overflow: auto;
   margin-top: -1px;
+  transition: all 500ms ease;
 
   &.dark {
     background-color: var(--bg-dark);
@@ -39,6 +40,7 @@ export const MainStyle = styled.main`
     .switch,
     .addTask {
       background-color: var(--bg-dark);
+      transition: all 400ms ease;
 
       h2,
       button,
@@ -46,6 +48,7 @@ export const MainStyle = styled.main`
       input,
       textarea {
         color: var(--white);
+        transition: all 400ms ease;
       }
 
       ::placeholder {
@@ -74,6 +77,7 @@ export const MainStyle = styled.main`
     .delPop {
       button {
         font-weight: 800;
+        transition: all 400ms ease;
       }
       .btns button:last-child {
         background-color: var(--white);
@@ -96,10 +100,11 @@ export const Empty = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 400ms ease;
 
   &.emptyBoard {
     margin-left: 0;
-    transition: all 500ms;
+    transition: all 400ms ease;
   }
 
   @media screen and (min-width: 641px) {
@@ -137,7 +142,7 @@ export const BoardStyle = styled.ul`
   margin-left: 0;
   margin: 0;
   list-style: none;
-  transition: all 500ms;
+  transition: all 400ms ease;
 
   ul.status {
     padding: 0;
@@ -232,6 +237,7 @@ export const AddBoardStyle = styled.section`
   padding-right: 1rem;
   z-index: 100;
   background-color: var(--white);
+  transition: all 400ms ease;
 
   h2,
   button {
@@ -533,6 +539,7 @@ export const AddBoardStyle = styled.section`
     padding-block: 0.75rem;
     border-radius: 1.25rem;
     border: none;
+    transition: all 500ms ease;
   }
   .add {
     color: var(--main-purple);
