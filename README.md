@@ -55,5 +55,6 @@ GSAP and typescript
 
 ## Author
 
-- Website - [<TomiPter>](https://www.tomipter.com)
-- Frontend Mentor - [@Tomi-pter](https://www.frontendmentor.io/profile/Tomi-pter)
+- LinkedIn - [<mccgrey>](https://www.linkedin.com/in/mccgrey)
+- Twitter - [@browncheese6](https://www.twitterr.com/browncheese6)
+- Github - [@MccGrey](https://github.com/MccGrey)
