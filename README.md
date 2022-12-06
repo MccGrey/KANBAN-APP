@@ -11,12 +11,11 @@
 
 ## Overview
 
+
 ![Algorithm schema](Screenshot (128).png)
 ![Algorithm schema](Screenshot (129).png)
 
-
 ### The challenge
-
 
 Users should be able to:
 
@@ -32,7 +31,6 @@ Users should be able to:
 - **Bonus**: Build this project as a full-stack application
 
 ### Links
-
 
 - Live Site URL: [Task Manager](https://tomi-task-manager.netlify.app/)
 
