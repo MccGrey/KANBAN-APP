@@ -11,9 +11,9 @@
 
 ## Overview
 
+![Algorithm schema](demo1.png)
 
-![Algorithm schema](Screenshot (128).png)
-![Algorithm schema](Screenshot (129).png)
+![Algorithm schema](demo2.png)
 
 ### The challenge
 
