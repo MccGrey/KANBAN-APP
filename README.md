@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Task Manager](https://tomi-task-manager.netlify.app/)
+- Live Site URL: [MccGre-Kanban-App](https://mccgrey-kanbanapp.netlify.app/)
 
 ## My process
 
