@@ -11,6 +11,10 @@
 
 ## Overview
 
+![Algorithm schema](demo1.png)
+
+![Algorithm schema](demo2.png)
+
 ### The challenge
 
 Users should be able to:
