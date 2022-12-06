@@ -11,9 +11,6 @@
 
 ## Overview
 
-![Algorithm schema](demo1.png)
-![Algorithm schema](demo2.png)
-
 ### The challenge
 
 Users should be able to:
@@ -31,7 +28,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repo](https://github.com/Tomi-pter/kanban-task-management.git)
 - Live Site URL: [Task Manager](https://tomi-task-manager.netlify.app/)
 
 ## My process
