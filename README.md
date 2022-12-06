@@ -56,5 +56,5 @@ GSAP and typescript
 ## Author
 
 - LinkedIn - [@mccgrey](https://www.linkedin.com/in/mccgrey)
-- Twitter - [@browncheese6](https://www.twitterr.com/browncheese6)
+- Twitter - [@browncheese6](https://www.twitter.com/browncheese6)
 - Github - [@MccGrey](https://github.com/MccGrey)
