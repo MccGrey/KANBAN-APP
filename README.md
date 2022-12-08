@@ -1,3 +1,7 @@
+## About web-app
+
+The Kanban board is a tool for workflow visualization, designed to help you bring clarity to your work process and enhance efficiency by limiting work in progress. With this new level of transparency, you will quickly identify problematic work stages, and by improving those, your team will soon work more efficiently.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -34,8 +38,6 @@ Users should be able to:
 
 - Live Site URL: [MccGre-Kanban-App](https://mccgrey-kanbanapp.netlify.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -49,11 +51,9 @@ Users should be able to:
 
 I mainly learnt how to persist complex state with localstorage and how to make use of the 'PersistGate' library for redux.
 
-### Continued development
-
-GSAP and typescript
-
 ## Author
+
+### AGUONYE CORNELIUS (MCCGREY)
 
 - LinkedIn - [@mccgrey](https://www.linkedin.com/in/mccgrey)
 - Twitter - [@browncheese6](https://www.twitter.com/browncheese6)
