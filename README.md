@@ -55,6 +55,8 @@ GSAP and typescript
 
 ## Author
 
+### AGUONYE CORNELIUS (MCCGREY)
+
 - LinkedIn - [@mccgrey](https://www.linkedin.com/in/mccgrey)
 - Twitter - [@browncheese6](https://www.twitter.com/browncheese6)
 - Github - [@MccGrey](https://github.com/MccGrey)
