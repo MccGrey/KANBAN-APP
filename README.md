@@ -49,10 +49,6 @@ Users should be able to:
 
 I mainly learnt how to persist complex state with localstorage and how to make use of the 'PersistGate' library for redux.
 
-### Continued development
-
-GSAP and typescript
-
 ## Author
 
 ### AGUONYE CORNELIUS (MCCGREY)
