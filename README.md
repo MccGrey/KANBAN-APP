@@ -34,8 +34,6 @@ Users should be able to:
 
 - Live Site URL: [MccGre-Kanban-App](https://mccgrey-kanbanapp.netlify.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
